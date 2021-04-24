@@ -1,9 +1,29 @@
 body{
     font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header, main, footer{
     max-width:750px;
-    margin: auto 0;
+    margin: auto; 
 
+}
+header, footer{
+    background-color:#566b8f;
+    padding: 1rem;
+    border-radius:10px;
+    
+}
+
+header img{
+    float: right;
+    
+}
+header h1{
+    text-align: center;
+    color:white;    
+}
+footer p{
+    text-align: center;
+    color:white;
 }
