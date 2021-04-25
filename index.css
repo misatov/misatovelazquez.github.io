@@ -28,5 +28,9 @@ footer p{
     color:white;
 }
 footer a {
-    color:rgb(133, 185, 189);
+    color:white;
+}
+footer a:visited{
+    color:#511730;
+  
 }
