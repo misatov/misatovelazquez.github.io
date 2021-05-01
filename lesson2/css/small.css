@@ -1,0 +1,41 @@
+header, footer{
+    background-color:#9BC1BC;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+
+}
+header h1{
+    text-align: center;
+    color:#333b29;
+}
+h1, h2{
+    font-family: 'Titillium Web', sans-serif;
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+main{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+main section{
+    margin: 0.5rem;
+    background-color:#E6EBE0;
+    text-align: center;
+}
+section a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+}
+section img{
+    padding: 1rem;
+}
+section p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+footer p{
+    text-align: center;
+    color:#333b29;
+}
