@@ -25,12 +25,13 @@ main section{
     text-align: center;
 }
 main section img{
-    width:90%;
+    max-width:80%;
     height: auto;
     margin: 20px;
   
 }
 section a{
+    display:block;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5rem;
 }
