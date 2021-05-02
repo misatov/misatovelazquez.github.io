@@ -24,13 +24,19 @@ main section{
     background-color:#E6EBE0;
     text-align: center;
 }
+main section img{
+    width:90%;
+    height: auto;
+    margin: 20px;
+  
+}
 section a{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5rem;
 }
-section img{
+/*section img{
     padding: 1rem;
-}
+}*/
 section p{
     font-family: 'Nunito Sans', sans-serif;
 }
