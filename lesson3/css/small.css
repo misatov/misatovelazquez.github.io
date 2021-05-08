@@ -7,27 +7,33 @@ h1,h2,h3{
     font-family: 'Antonio', sans-serif;
  
 }
+h1{
+    font-size: 2rem;
+}
 h2{
     color:rgb(184, 103, 103);
 }
-nav li{
+nav{
+    background-color: royalblue;
+}
+nav ul{
     list-style: none;
-    background-color: sandybrown;
+ 
 }
 nav li a{
     display: block;
     color: #000000;
+    text-align: center;
     font-family: 'Sarabun', sans-serif;
 }
 nav li a:hover{
-    display: block;
     font-family: 'Sarabun', sans-serif;
-    color:rgb(29, 117, 206)
+    color:rgb(208, 233, 141)
 }
-header, footer{
+header, nav,footer{ 
     background-color: royalblue;
     text-align: center;
-    padding:30px;
+    padding:20px;
 }
 header, main, footer{
     margin: 0 auto;
