@@ -2,7 +2,13 @@ body{
     font-size: 16px;
     max-width:750px;
     margin: auto; 
-    
+}
+h1,h2,h3{
+    font-family: 'Antonio', sans-serif;
+ 
+}
+h2{
+    color:rgb(184, 103, 103);
 }
 nav li{
     list-style: none;
@@ -10,14 +16,25 @@ nav li{
 }
 nav li a{
     display: block;
+    color: #000000;
+    font-family: 'Sarabun', sans-serif;
+}
+nav li a:hover{
+    display: block;
+    font-family: 'Sarabun', sans-serif;
+    color:rgb(29, 117, 206)
 }
 header, footer{
     background-color: royalblue;
     text-align: center;
     padding:30px;
-
 }
 header, main, footer{
     margin: 0 auto;
- 
+}
+img{
+    max-width: 100%
+}
+p{
+    font-family: 'Sarabun', sans-serif;
 }
