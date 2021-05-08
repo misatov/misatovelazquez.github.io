@@ -1,6 +1,6 @@
 body{
     font-size: 16px;
-    max-width:750px;
+    max-width:950px;
     margin: auto; 
 }
 h1,h2,h3{
@@ -13,33 +13,41 @@ h1{
 h2{
     color:rgb(184, 103, 103);
 }
-nav{
-    background-color: royalblue;
-}
 nav ul{
     list-style: none;
+    text-align: center;
  
 }
 nav li a{
     display: block;
-    color: #000000;
+    color: snow;
     text-align: center;
     font-family: 'Sarabun', sans-serif;
+    margin: 10px;
 }
 nav li a:hover{
     font-family: 'Sarabun', sans-serif;
     color:rgb(208, 233, 141)
+    
 }
-header, nav,footer{ 
+header,nav,footer{ 
     background-color: royalblue;
     text-align: center;
     padding:20px;
+    color: snow;
 }
-header, main, footer{
-    margin: 0 auto;
-}
+
 img{
     max-width: 100%
+}
+main{
+    padding: 0 2rem;
+}
+footer a {
+    color:white;
+}
+footer a:visited{
+    color:#511730;
 }
 p{
     font-family: 'Sarabun', sans-serif;
