@@ -1,0 +1,23 @@
+body{
+    font-size: 16px;
+    max-width:750px;
+    margin: auto; 
+    
+}
+nav li{
+    list-style: none;
+    background-color: sandybrown;
+}
+nav li a{
+    display: block;
+}
+header, footer{
+    background-color: royalblue;
+    text-align: center;
+    padding:30px;
+
+}
+header, main, footer{
+    margin: 0 auto;
+ 
+}
