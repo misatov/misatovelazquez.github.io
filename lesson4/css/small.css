@@ -25,6 +25,7 @@ nav li a{
     text-align: center;
     font-family: 'Sarabun', sans-serif;
     margin: 20px;
+    text-decoration: none;
 }
 nav li a:hover{
     font-family: 'Sarabun', sans-serif; 
