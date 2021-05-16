@@ -62,8 +62,20 @@ header img{
 .headings h1{
     font-size: 1.6rem;
 }
+.navigation{
+    padding: 0;
+}
+/* .navigation a:hover{
+    background-color: #007ea7;
+    color: snow;
+} */
+.navigation li:first-child{
+    display: block;
 
-
+}
+.navigation li{
+    display: none;
+}
 
 img{
     max-width: 100%
