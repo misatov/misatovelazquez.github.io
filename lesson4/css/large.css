@@ -1,4 +1,10 @@
 @media (min-width: 60em){
+    .headings h1{
+        font-size: 2rem;
+    }
+    .m{
+        font-size: 1.3rem;
+    }
     nav ul { 
         display: flex;
         justify-content: space-around;
@@ -8,5 +14,8 @@
      }
     .navigation li{
         display: block;
+        flex: 1 1 auto;
     }
+   
+
 }
