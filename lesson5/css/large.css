@@ -27,6 +27,15 @@
     .forecast{
         margin-top:0;
     }
-   
+.info iframe{
+    float: left;
+    width: auto;
+    margin-left: 1rem;
+    justify-self: center;
+}
+.info{
+    padding: 20px 0 100px 0;
+}
+
 
 }
