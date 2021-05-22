@@ -127,12 +127,12 @@ main h2{
 
 .weatherS{
     position: absolute;
-    
-    background-color: rgba(128, 145, 194, 0.7);
+    background-color: rgba(128, 145, 194, 0.9);
     padding:  1rem 2rem;
     left: 2rem;
     border: 1px solid rgb(243, 245, 247);
     top: 2rem;
+    color: white;
 }
 .weatherS h3{
     margin: 0.5rem;
@@ -141,7 +141,7 @@ main h2{
     margin: 0.5rem;
 }
 .forecast{
-    position:inherit;
+    margin-top: 100px;
 }
 /* Forecast Grid */
 .grid { 
