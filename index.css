@@ -16,7 +16,7 @@ header, footer{
 }
 
 header img{
-    float: right;
+    margin: 15px;
     
 }
 header h1{
@@ -34,3 +34,4 @@ footer a:visited{
     color:#511730;
   
 }
+
