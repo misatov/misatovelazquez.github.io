@@ -113,9 +113,52 @@ p{
 main h2{
     font-size: 1.3rem;
 }
-.contentbox{
-    border: 1px dotted #007ea7;
-    font-family: 'Sarabun', sans-serif;
-    padding: 10px;
-    margin: 10px;
+.herodiv{
+    position: relative;
+    margin: 10px auto;
+}
+.weatherS{
+    position: absolute;
+    max-width: 100% ;
+    background-color: rgba(128, 145, 194, 0.7);
+    padding: 2rem;
+    left: 2rem;
+    border: 1px solid rgb(243, 245, 247);
+	padding: 1.5rem;
+    top: 2rem;
+}
+/* Forecast Grid */
+.grid { 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+}
+.grid-col {
+	background-color: tomato;
+    border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	text-align: center;
+}
+.grid {
+	border-right: 1px solid #333;
+}
+.grid-col:hover {
+	opacity: 0.75;
+	background-color: black;
+	color: white;
+}
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+	text-align: center;
+    font-weight: 700;
+	font-size: 1rem;
+	background-color: black;
+	color: white;
+}
+/* Event CSS */
+.info img{
+    float: right;
+    max-width: 100%;
+    
 }
