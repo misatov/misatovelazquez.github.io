@@ -107,6 +107,9 @@ footer a {
 footer a:visited{
     color:#511730;
 }
+footer img{
+    padding: 0.125rem;
+}
 p{
     font-family: 'Sarabun', sans-serif;
 }
