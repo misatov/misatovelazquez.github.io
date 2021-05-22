@@ -11,3 +11,7 @@ else{
 }
 
 // *challenge* try in one statement if possible 
+// if(thedate.getDay() == 5){
+//  return (thedate.getDay() == 5 ? document.querySelector('#banner').style.display = 'block' : document.querySelector('#banner').style.display = "none");
+// }
+// console.log(thedate.getDay());
