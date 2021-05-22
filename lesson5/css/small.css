@@ -113,19 +113,32 @@ p{
 main h2{
     font-size: 1.3rem;
 }
+.idahoIntro{
+    max-width: 100% ;
+   
+}
 .herodiv{
     position: relative;
     margin: 10px auto;
 }
+
 .weatherS{
     position: absolute;
-    max-width: 100% ;
+    
     background-color: rgba(128, 145, 194, 0.7);
-    padding: 2rem;
+    padding:  1rem 2rem;
     left: 2rem;
     border: 1px solid rgb(243, 245, 247);
-	padding: 1.5rem;
     top: 2rem;
+}
+.weatherS h3{
+    margin: 0.5rem;
+}
+.weatherS p{
+    margin: 0.5rem;
+}
+.forecast{
+    position:inherit;
 }
 /* Forecast Grid */
 .grid { 
@@ -133,7 +146,7 @@ main h2{
 	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
 }
 .grid-col {
-	background-color: tomato;
+	background-color: #e0e0e0;
     border-bottom: 1px solid #333;
 	border-left: 1px solid #333;
 	text-align: center;
@@ -146,6 +159,11 @@ main h2{
 	background-color: black;
 	color: white;
 }
+.grid-col img{
+    width: 30px;
+
+    padding: 0.5rem;
+}
 .col-head {
 	display: block;
 	padding: 5px;
@@ -153,12 +171,20 @@ main h2{
 	text-align: center;
     font-weight: 700;
 	font-size: 1rem;
-	background-color: black;
+	background-color: rgba(128, 145, 194, 0.7);
 	color: white;
+    font-family:  'Sarabun', sans-serif; 
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+    font-family: 'Sarabun', sans-serif; 
 }
 /* Event CSS */
 .info img{
     float: right;
-    max-width: 100%;
-    
+    max-width: 100%;   
 }

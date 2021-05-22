@@ -16,6 +16,18 @@
         display: block;
         flex: 1 1 auto;
     }
+    .weatherS{
+        position: absolute;
+        background-color: rgba(128, 145, 194, 0.7);
+        padding:  1rem 2rem;
+        left: 2rem;
+        border: 1px solid rgb(243, 245, 247);
+        top: 2rem;
+    }
+    .grid-col img{
+        width: 50px;
+        padding: 0.5rem;
+    }
    
 
 }
