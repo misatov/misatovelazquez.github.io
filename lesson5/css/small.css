@@ -118,6 +118,10 @@ p{
 main h2{
     font-size: 1.3rem;
 }
+nav ul li.active a {
+   text-decoration: underline;
+   color: rgba(128, 145, 194, 0.9);
+}
 .idahoIntro{
     max-width: 100% ;
    
