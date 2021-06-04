@@ -5,7 +5,7 @@ const imgOptions = {
     threshold: 1,
     rootMargin: "0px 0px 50px 0px"
 };
-
+// set src and reset data-src
 const loadImages = (image) =>{
     image.setAttribute('src',image.getAttribute('data-src'));
     image.onload = () =>{image.removeAttribute('data-src');};
@@ -27,6 +27,7 @@ if('IntersectionObserver' in window){
         });
     },imgOptions);
 
+//loop through each img on check status and load if necessary
     imageToLoad.forEach((img) =>{
     imgObserver.observe(img);
 });

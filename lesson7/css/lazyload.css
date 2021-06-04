@@ -5,9 +5,10 @@ main {
   justify-content: center;
   width: 400px;
 }
-
 img {
   filter: blur(0px);
+  transition: filter 0.5s;
+  padding: 2px;
 }
 img[data-src] {
   filter: blur(2px);
