@@ -1,0 +1,18 @@
+main{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+img{
+    filter: blur(0px);
+}
+img[data-src]{
+    filter: blur(2px);
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(47, 32, 189);
+   text-align: center;
+}
