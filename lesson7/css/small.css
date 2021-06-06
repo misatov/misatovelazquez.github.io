@@ -218,4 +218,9 @@ nav ul li.active a {
     text-align: center;
     font-weight: bold;
 }
-
+figcaption{
+    font-family: 'Sarabun', sans-serif; 
+}
+figure img:hover{
+    box-shadow: 0 0 50px #333;
+}

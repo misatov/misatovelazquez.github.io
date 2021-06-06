@@ -36,6 +36,9 @@
 .info{
     padding: 20px 0 100px 0;
 }
-
+.galleryimages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 }
