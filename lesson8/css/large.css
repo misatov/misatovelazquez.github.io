@@ -1,0 +1,61 @@
+@media (min-width: 60em){
+    .headings h1{
+        font-size: 2rem;
+    }
+    .m{
+        font-size: 1.3rem;
+    }
+    nav ul { 
+        display: flex;
+        justify-content: space-around;
+     }
+     .navigation li:first-child{
+         display: none;
+     }
+    .navigation li{
+        display: block;
+        flex: 1 1 auto;
+    }
+    .weatherS{
+        background-color: rgba(128, 145, 194, 0.7);
+        
+    }
+    .grid-col img{
+        width: 50px;
+        padding: 0.5rem;
+    }
+    .forecast{
+        margin-top:0;
+    }
+.info iframe{
+    float: left;
+    width: auto;
+    margin-left: 6rem;
+    justify-self: center;
+}
+.info{
+    padding: 20px 0 100px 0;
+}
+.galleryimages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+main{
+    padding: 0;
+  
+    padding: 1rem 0;
+}
+main img{
+    
+    max-width: 110%;
+  
+}
+main h2{
+    padding: 1rem 3rem;
+}
+main .CounterVisitor{
+    padding: 0 3rem;
+}
+
+
+}
