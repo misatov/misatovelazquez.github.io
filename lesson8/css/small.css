@@ -13,6 +13,7 @@ h1{
 }
 h2{
     color:rgb(184, 103, 103);
+    
 }
 nav ul{
     list-style: none;
@@ -117,7 +118,7 @@ p{
     font-family: 'Sarabun', sans-serif;
 }
 main h2{
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 nav ul li.active a {
    text-decoration: underline;
@@ -236,6 +237,7 @@ legend{
 }
 fieldset{
     margin-bottom: 1.5rem;
+    
 }
 
 .req{
@@ -261,7 +263,7 @@ input,select,textarea{
     margin:0;
 }
 button{
-    margin:0;
     font-family: 'Sarabun', sans-serif; 
-    padding: 1rem 2rem;
+    padding: 1rem 5rem;
 }
+
