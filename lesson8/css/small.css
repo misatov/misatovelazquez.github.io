@@ -224,3 +224,43 @@ figcaption{
 figure img:hover{
     box-shadow: 0 0 50px #333;
 }
+
+/* Storm Center */
+legend,label{
+    font-family: 'Sarabun', sans-serif; 
+}
+legend{
+    padding: 2rem 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+fieldset{
+    margin-bottom: 1.5rem;
+}
+
+.req{
+    color: #fa6661;
+    font-weight: bold;
+}
+/* label{
+    margin: 2rem;
+} */
+input,select{
+    margin-bottom: 1.5rem ;
+    block-size: 2.5rem;
+    width: 70%;
+}
+.selection{
+    width: 20px;
+    display: block;
+    margin:0;
+}
+.ratio{
+    width:unset;
+    margin:0;
+}
+button{
+    margin:0;
+    font-family: 'Sarabun', sans-serif; 
+    padding: 1rem 2rem;
+}
