@@ -83,7 +83,7 @@
                     <label>Storm Type
                         <br>
                         <select name="browsers" id="selectbrowser" onchange="selectResponse()">
-                            <option value="" disabled selected>Select a Storm Type</option>
+                            <option value="select" disabled selected>Select a Storm Type</option>
                             <option value="flash-flood">Flash Flood</option>
                             <option value="hail">Hail</option>
                             <option value="hurricane">Hurricane</option>
@@ -118,6 +118,7 @@
                         <input list="region" name="storm-region">
                     </label>
                     <datalist id="region">
+                        <option value="select" disabled selected>Select :</option>
                         <option value="Preston">
                         <option value="Soda Spring">
                         <option value="Fish Haven">            
