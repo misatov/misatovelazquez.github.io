@@ -226,7 +226,7 @@ figure img:hover{
 }
 
 /* Storm Center */
-legend,label{
+legend,label,div{
     font-family: 'Sarabun', sans-serif; 
 }
 legend{
@@ -245,11 +245,12 @@ fieldset{
 /* label{
     margin: 2rem;
 } */
-input,select{
+input,select,textarea{
     margin-bottom: 1.5rem ;
     block-size: 2.5rem;
     width: 70%;
 }
+
 .selection{
     width: 20px;
     display: block;
