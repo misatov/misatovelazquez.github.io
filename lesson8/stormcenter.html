@@ -48,8 +48,8 @@
             <form action="thanks.html" method='get'> <!-- action to thank you page -->
 
                 <fieldset>
-                    <legend>Your information</legend>
-                    <label for="name"><span class='req'>*Required</span> Full Name
+                    <legend>Your Information</legend>
+                    <label for="name"> Full Name<span class='req'>*Required</span>
                         <br>
                         <input type="text" pattern="[a-zA-Z]{5,}" name="name" title="minimum 5 letters" required>
                     </label>
@@ -59,13 +59,13 @@
                         <input type="email" pattern="" placeholder="info@weatherecho.com" name="email">
                     </label>
                     <br>
-                    <label for="phone-number"><span class='req'>*Required</span> Phone Number
+                    <label for="phone-number"> Phone Number <span class='req'>*Required</span>
                         <br>
                         <input type="tel"  placeholder="123-456-7890"
                             name="phone" required>
                     </label>
                     <br>
-                    <label for="zip-code"><span class='req'>*Required</span> Zip Code
+                    <label for="zip-code"> Zip Code <span class='req'>*Required</span>
                         <br>
                         <input type="number" placeholder="12345" name="zip" required>
                         <br>
@@ -130,15 +130,15 @@
                     <label for="">User in Danger (Choose one)
                         <br>
                         <div class="selection">
-                            <input type="radio"  name="danger" value="yes" checked>
+                            <input type="radio"  name="danger" value="yes" class="ratio" checked>
                             <label for="yes">Yes</label>
                         </div>
                         <div class="selection">
-                            <input type="radio" name="danger" value="maybe">
+                            <input type="radio" name="danger" value="maybe" class="ratio">
                             <label for="maybe"> Maybe</label>
                         </div>
                         <div class="selection">
-                            <input type="radio"  name="danger" value="no">
+                            <input type="radio"  name="danger" value="no" class="ratio">
                             <label for="no">No</label>
                         </div>
 
@@ -186,6 +186,7 @@
     <script src="js/responsive.js"></script>
     <script src="js/fontload.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/stormcenter.js"></script>
 
 
 </body>
