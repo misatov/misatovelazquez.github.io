@@ -1,0 +1,40 @@
+header, main, footer{
+   
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    color:#55568c;
+    font-family: fantasy;
+  
+}
+
+h1{ 
+    margin: 5px;
+    border: 1px solid #eee;
+    color:#55568c;
+    font-size: 3rem;
+    font-family: fantasy;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap:10px;
+}
+section{
+    text-align: center;
+    background-color: #b9bac9;
+    border: 3px solid#9d9eb3;
+ 
+}
+section img{
+    box-shadow: 0 0 50px #616065 ;
+    width: 250px;
+  
+}
+section p{
+    font-family: sans-serif;
+}
+h2{
+    color:#55568c;
+    font-family: fantasy;
+}
