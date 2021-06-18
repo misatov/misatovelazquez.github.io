@@ -24,7 +24,7 @@ fetch(requestURL)
         dob.textContent = "Date of Birth : " + prophets[i].birthdate;
         pob.textContent = "Place of Birth : " + prophets[i].birthplace;
         img.setAttribute('src', prophets[i].imageurl);
-        img.setAttribute('alt', `The official portrait of ${prophets[i].name} ${prophets[i].lastname}`);
+        img.setAttribute('alt', `${prophets[i].name} ${prophets[i].lastname} - ${prophets[i].order}`);
         
 
         card.append(h2);
