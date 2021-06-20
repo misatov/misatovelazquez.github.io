@@ -37,5 +37,20 @@
     padding: 20px 0 100px 0;
 }
 
+/* Home CSS */
+.threetowns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+.threetowns section{
+    background-color: #e0e0e0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
 
 }
