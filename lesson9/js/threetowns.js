@@ -27,8 +27,8 @@ fetch(requestURL)
         year.textContent = "Year Founded : " + onlyThree[i].yearFounded;
         population.textContent = "Population : " + onlyThree[i].currentPopulation;
         rainFall.textContent = "Average Rain Fall: " + onlyThree[i].averageRainfall;
-        img.setAttribute('src', `images/${onlyThree.photo}`);
-        // img.setAttribute('alt', `${prophets[i].name} ${prophets[i].lastname} - ${prophets[i].order}`);
+        img.setAttribute('src', `images/${onlyThree[i].photo}`);
+        img.setAttribute('alt', `${onlyThree[i].name}`);
 
 
         card.append(h3);
