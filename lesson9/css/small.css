@@ -222,18 +222,9 @@ nav ul li.active a {
     background-color: #e0e0e0;
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 1rem;
     margin: 0.5rem;
+    
 }
 
-/* .threetowns section:nth-child(odd) img {
-	grid-column: 2;
-} */
-
-
- 
-/* .threetowns{
-    display:flex;
-    flex-direction: row;
-} */
