@@ -22,7 +22,7 @@ fetch(requestURL)
         let rainFall = document.createElement('p');
         let img = document.createElement('img');
 
-        h3.textContent = onlyThree[i].name ;
+        h3.textContent = onlyThree[i].name;
         motto.textContent = onlyThree[i].motto ;
         year.textContent = "Year Founded : " + onlyThree[i].yearFounded;
         population.textContent = "Population : " + onlyThree[i].currentPopulation;
@@ -39,7 +39,7 @@ fetch(requestURL)
         card.append(img);
 
 
-        document.querySelector('div.herodiv').append(card);
+        document.querySelector('div.threetowns').append(card);
     }
 
     });

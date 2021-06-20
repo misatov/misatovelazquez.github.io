@@ -32,8 +32,6 @@ nav li a:hover{
     font-family: 'Sarabun', sans-serif; 
     color:#007ea7;
 
-    
-    
 }
 header,nav,footer{ 
    
@@ -219,3 +217,23 @@ nav ul li.active a {
     font-weight: bold;
 }
 
+/* Home CSS */
+.threetowns section{
+    background-color: #e0e0e0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+/* .threetowns section:nth-child(odd) img {
+	grid-column: 2;
+} */
+
+
+ 
+/* .threetowns{
+    display:flex;
+    flex-direction: row;
+} */
