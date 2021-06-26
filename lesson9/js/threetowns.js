@@ -13,7 +13,7 @@ fetch(requestURL)
     const onlyThree = towns.filter((towns => towns.name == 'Soda Springs' || towns.name == 'Fish Haven' || towns.name == 'Preston'  ));
     console.log(onlyThree);
 
-    for(let i=0; i<towns.length; i++){
+    for(let i=0; i<onlyThree.length; i++){
         let card = document.createElement('section'); // container
         let h3= document.createElement('h3');
         let motto = document.createElement('p');
