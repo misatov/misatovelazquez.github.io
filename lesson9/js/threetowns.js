@@ -7,11 +7,11 @@ fetch(requestURL)
 
 
   .then(function (jsonObject) {
-    console.table(jsonObject);  
+    // console.table(jsonObject);  
 
     const towns = jsonObject['towns'];
     const onlyThree = towns.filter((towns => towns.name == 'Soda Springs' || towns.name == 'Fish Haven' || towns.name == 'Preston'  ));
-    console.log(onlyThree);
+    // console.log(onlyThree);
 
     for(let i=0; i<onlyThree.length; i++){
         let card = document.createElement('section'); // container
