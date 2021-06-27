@@ -5,5 +5,10 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
 
-    // document.querySelector('')
+    document.querySelector('#current-cond').textContent = jsObject.weather[0].description;
+    document.querySelector('#temp').textContent = jsObject.main.temp;
+    document.querySelector('#high').textContent = jsObject.main.temp_max;
+    document.querySelector('#humi').textContent = jsObject.main.humidity;
+
+    
   });
