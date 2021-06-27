@@ -24,8 +24,32 @@ fetch(apiURLw)
   fetch(apiURLf)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+    console.log(jsObject); 
+
+    const daysofw = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri','Sat'];
+    let day = 0;
 
  
+        const fiveDayForecast = jsObject.list.filter( forecast => forecast.dt_txt.includes('12:00:00'));
+        console.log(fiveDayForecast);
+
+fiveDayForecast.forEach( x  =>{
+    let d = new Date(x.dt_txt);
+    // console.log(d);
+    
+    let image = `https://openweathermap.org/img/w/${x.weather[0].icon}.png`;
+    let desc = x.weather[0].description; 
+   
+
+    document.getElementById(`dayofweek${day+1}`).textContent = daysofw[d.getDay()];
+    document.getElementById(`fc-temp${day+1}`).innerHTML = x.main.temp.toFixed(0);
+
+   
+    document.getElementById(`fc-img${day+1}`).setAttribute('src', image);
+    document.getElementById(`fc-img${day+1}`).setAttribute('alt', desc);
+
+    day++;
 
   });
+  
+});
