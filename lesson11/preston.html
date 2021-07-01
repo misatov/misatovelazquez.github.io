@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a Preston community page">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio&family=Sarabun:wght@300&display=swap" rel="stylesheet">
+    <title>Preston</title>
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/banner.js"></script>
+    <script defer src="js/api.js"></script>
+</head>
+
+<body>
+    <aside id="banner">Saturday = Preston Pancakes in the Park! 9:00a.m. Saturday at the city park pavilion.</aside>
+    <header>
+        <picture> <img src="images/iconpng.png" alt="Icon">
+        </picture>
+
+
+        <section class="headings">
+            <h1>Preston Weather Echo</h1>
+            <div class="m"> Local weather and events </div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#8801;Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <h2>Preston Idaho</h2>
+        <div class="herodiv">
+
+            <section class="weatherS">
+                <h3>Weather Summary</h3>
+                <hr>
+                <p>Current Conditions: <span id="current-cond"></span></p>
+                <p>Current Temp: <span id="current-temp"></span>F&deg;</p>
+                <p>High: <span id="high"></span>F&deg;</p>
+                <p>Wind Chill: <span id="windchill"></span>F&deg;</p>
+                <p>Humidity: <span id="humi"></span></p>
+                <p>Wind Speed: <span id="speed"></span>mph</p>
+            </section>
+            <img src="images/heroimg.jpg" alt="hero image">
+        </div>
+
+        <section class="forecast">
+            <h2> 5 day Forecast</h2>
+            <div class="grid">
+                <div class="grid-col">
+                    <span class="col-head" id="dayofweek1"></span>
+                    <img id="fc-img1"></img>
+                    <span class="data" id="fc-temp1">F&deg;</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head" id="dayofweek2"></span>
+                    <img id="fc-img2"></img>
+                    <span class="data" id="fc-temp2">F&deg;</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head" id="dayofweek3"></span>
+                    <img id="fc-img3"></img>
+                    <span class="data" id="fc-temp3">F&deg;</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head" id="dayofweek4"></span>
+                    <img id="fc-img4"></img>
+                    <span class="data" id="fc-temp4">F&deg;</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head" id="dayofweek5"></span>
+                    <img id="fc-img5"></img>
+                    <span class="data" id="fc-temp5">F&deg;</span>
+                </div>
+            </div>
+        </section>
+        <section class="eventInfo">
+            <h2>Events</h2>
+            <img src="images/eventimg.jpg" alt="Event image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sequi quae expedita dolor animi
+                libero pariatur dolore facere qui deserunt in, facilis sapiente recusandae aspernatur. Perspiciatis in
+                earum officiis, veniam architecto atque labore fugiat placeat? Facere ex voluptatem in eos. Deserunt
+                cupiditate similique optio accusantium voluptatibus. Repudiandae assumenda aperiam qui quo consequuntur
+                atque esse inventore magni, suscipit, consequatur necessitatibus repellendus nemo ratione fuga eum vel
+                quidem tenetur praesentium eaque minus voluptatum at? Dolores et assumenda quos maiores quae reiciendis
+                non, blanditiis nemo ipsam ratione fuga aperiam accusamus est error iste ipsa! Enim magni nisi error nam
+                consectetur nihil quas explicabo perspiciatis! Beatae deleniti quisquam adipisci itaque veritatis ipsam,
+                quae autem ipsa nam fugiat enim soluta eum accusantium recusandae quo possimus consequatur explicabo
+                tenetur. Minima, eos fugit. Vel nisi, quos assumenda modi totam, blanditiis officiis adipisci numquam
+                ipsa omnis dignissimos? Iure excepturi eveniet vero ducimus quo est laudantium quibusdam. Ducimus, sit!
+                Quidem minima cumque aliquid fuga voluptatibus velit voluptate, id illo pariatur facere reiciendis
+                debitis aut delectus ex porro aspernatur! Doloremque perferendis sed adipisci quibusdam quae officia,
+                est totam velit asperiores voluptates recusandae aspernatur. Doloribus minus nam nihil aliquid hic nulla
+                iste, pariatur tempore sapiente, at eum, unde alias numquam blanditiis.</p>
+
+        </section>
+        <section class="info"> 
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2smx!4v1621648591520!5m2!1sen!2smx"
+                width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <img src="images/facebook-color.png" alt="facebook icon">
+            <img src="images/twitter-color.png" alt="twitter icon">
+            <img src="images/instagram-color.png" alt="instagram icon">
+            <h3> Preston Weather Echo</h3>
+            <p>100N. 21st E. Preston, ID 83263</p>
+            <p>Tel : 999-987-6543</p>
+            <p>Email : info@prestonweatherecho.com</p>
+        </section>
+
+
+    </main>
+
+    <footer>
+
+        <p>&copy;<span id="copyright"></span> Preston Weather Echo | Misato Velazquez | WDD 230 </p>
+        <p> <span id="date"></span> </p>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/responsive.js"></script>
+
+</body>
+
+</html>
