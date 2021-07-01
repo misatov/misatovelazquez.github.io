@@ -15,5 +15,4 @@ const desc = jsObject.weather[0].description;  // note how we reference the weat
 
 document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
 document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-document.getElementById('icon').setAttribute('alt', desc);
-
+document.getElementById('icon').setAttribute('alt', de
