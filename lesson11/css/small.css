@@ -203,6 +203,10 @@ figure img:hover{
     float: right;
     max-width: 100%;   
 }
+.eventInfo p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
 /* Information CSS */
 .info{
     background-color: #e0e0e0; 
