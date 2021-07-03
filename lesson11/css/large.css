@@ -78,5 +78,9 @@ main .CounterVisitor{
 .threetowns img{
     max-width: 100%;
 }
+.upcoming{                                                                                                                                                                           
+    margin: 1rem 4rem;
+    max-width: 80%;
+}
 
 }
