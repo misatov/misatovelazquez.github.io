@@ -191,6 +191,13 @@ nav ul li.active a {
 	text-align: center;
     font-family: 'Sarabun', sans-serif; 
 }
+/* Gallery CSS */
+figcaption{
+    font-family: 'Sarabun', sans-serif; 
+}
+figure img:hover{
+    box-shadow: 0 0 50px #333;
+}
 /* Event CSS */
 .eventInfo img{
     float: right;
@@ -226,5 +233,46 @@ nav ul li.active a {
     padding: 1rem;
     margin: 0.5rem;
     
+}
+
+/* Storm Center CSS */
+legend,label,div{
+    font-family: 'Sarabun', sans-serif; 
+}
+legend{
+    padding: 2rem 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+fieldset{
+    margin-bottom: 1.5rem;
+    
+}
+
+.req{
+    color: #fa6661;
+    font-weight: bold;
+}
+/* label{
+    margin: 2rem;
+} */
+input,select,textarea{
+    margin-bottom: 1.5rem ;
+    block-size: 2.5rem;
+    width: 70%;
+}
+
+.selection{
+    width: 20px;
+    display: block;
+    margin:0;
+}
+.ratio{
+    width:unset;
+    margin:0;
+}
+button{
+    font-family: 'Sarabun', sans-serif; 
+    padding: 1rem 5rem;
 }
 

@@ -36,6 +36,30 @@
 .info{
     padding: 20px 0 100px 0;
 }
+/* gallery CSS */
+
+.galleryimages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+main{
+    padding: 0;
+  
+    padding: 1rem 0;
+}
+main img{
+    
+    max-width: 110%;
+  
+}
+main h2{
+    padding: 1rem 3rem;
+}
+main .CounterVisitor{
+    padding: 0 3rem;
+}
+
+
 
 /* Home CSS */
 .threetowns{
@@ -51,6 +75,8 @@
     padding: 1rem;
     margin: 0.5rem;
 }
-
+.threetowns img{
+    max-width: 100%;
+}
 
 }
