@@ -16,7 +16,9 @@
         display: block;
         flex: 1 1 auto;
     }
+   
     .weatherS{
+        position: absolute;
         background-color: rgba(128, 145, 194, 0.7);
         
     }

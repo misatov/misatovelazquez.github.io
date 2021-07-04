@@ -1,4 +1,7 @@
 @media (min-width: 42em){
+    .weatherS{
+        position: absolute;
+    }
     /* Home CSS */
     .threetowns section{
         display: grid;
