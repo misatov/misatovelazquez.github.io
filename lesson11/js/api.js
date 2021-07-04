@@ -42,7 +42,7 @@ fiveDayForecast.forEach( x  =>{
    
 
     document.getElementById(`dayofweek${day+1}`).textContent = daysofw[d.getDay()];
-    document.getElementById(`fc-temp${day+1}`).innerHTML = x.main.temp.toFixed(0);
+    document.getElementById(`fc-temp${day+1}`).innerHTML = x.main.temp.toFixed(0) + "°F";
 
    
     document.getElementById(`fc-img${day+1}`).setAttribute('src', image);
