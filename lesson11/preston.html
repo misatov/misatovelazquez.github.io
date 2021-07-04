@@ -56,7 +56,12 @@
                 <p>Humidity: <span id="humi"></span></p>
                 <p>Wind Speed: <span id="speed"></span>mph</p>
             </section>
-            <img src="images/heroimg.jpg" alt="hero image">
+            <picture>
+                <source srcset="images/heroimgfishhavenSmall.jpg" media="(max-width:499px)">
+                <source srcset="images/heroimgfishhavenMedium.jpg" media="(min-width:500px) and (max-width:799px)">
+                <source srcset="images/heroimgfishhavenLarge.jpg" media="(min-width:800px)">
+                <img src="images/heroimg.jpg" alt="hero image">
+            </picture>
         </div>
 
         <section class="forecast">
@@ -96,7 +101,7 @@
         </section>
         <section class="eventInfo">
             <h2>Events</h2>
-            <img src="images/eventimg.jpg" alt="Event image">
+            <img src="images/eventimg2.jpg" alt="Event image">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sequi quae expedita dolor animi
                 libero pariatur dolore facere qui deserunt in, facilis sapiente recusandae aspernatur. Perspiciatis in
                 earum officiis, veniam architecto atque labore fugiat placeat? Facere ex voluptatem in eos. Deserunt
