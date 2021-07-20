@@ -13,7 +13,7 @@ h1{
     font-size: 2rem;
 }
 h2{
-    color:rgb(184, 103, 103);
+    color:#EF626C;
 }
 nav ul{
     list-style: none;
@@ -171,7 +171,6 @@ nav ul li.active a {
 }
 .grid-col img{
     width: 30px;
-
     padding: 0.5rem;
 }
 .col-head {
@@ -183,7 +182,7 @@ nav ul li.active a {
 	font-size: 1rem;
 	background-color: #4F6D7A;
 	color: white;
-    ffont-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif; 
 }
 
 .data {
@@ -294,4 +293,17 @@ button{
     margin:  1rem;
     max-width: 80%;
 }
-
+/* Join CSS */
+.membership{
+    line-height :3 ;
+}
+/* City CSS */
+.dontmiss{
+    background-color:#F6E8EA;
+    padding: 1.5rem;
+}
+.dontmiss li{
+    font-family: 'Open Sans', sans-serif; 
+ line-height: 2;
+  
+}
