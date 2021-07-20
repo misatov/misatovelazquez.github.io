@@ -307,3 +307,9 @@ button{
  line-height: 2;
   
 }
+.btn-join{
+    /* display: flex;
+    justify-self: center; */
+    /* margin: auto; */
+    text-align: center;
+}
