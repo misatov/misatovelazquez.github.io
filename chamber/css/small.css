@@ -215,10 +215,10 @@ figure img:hover{
 }
 /* Information CSS */
 .info{
-    background-color: #e0e0e0; 
+    background-color: #4F6D7A; 
     text-align: center;
     padding: 20px;
-    color: #464646;
+    color: white;
 }
 .info iframe{
     float: left;
