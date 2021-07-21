@@ -29,7 +29,10 @@ nav li a{
     margin: 20px;
     text-decoration: none;
 }
-nav li a:hover{
+.active{
+    background-color:#ffffff; ;
+}
+nav li:hover{
     font-family: 'Open Sans', sans-serif; 
     color:#007ea7;
 
@@ -204,6 +207,11 @@ figure img:hover{
     margin: 1rem 0;
 }
 .eventInfo img{
+    float: right;
+    max-width: 100%;   
+    margin: 0 1rem;
+}
+.joinM img{
     float: right;
     max-width: 100%;   
     margin: 0 1rem;

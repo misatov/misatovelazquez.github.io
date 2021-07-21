@@ -16,7 +16,15 @@
         display: block;
         flex: 1 1 auto;
     }
-   
+    nav{ 
+        background-color: #020887;
+        padding: 0px;
+        text-align: center;
+        color: #ffffff;
+    }
+    header{
+        padding: 10px;
+    }
     .weatherS{
         position: absolute;
         background-color: rgba(128, 145, 194, 0.7);
@@ -37,6 +45,11 @@
 }
 .info{
     padding: 20px 0 100px 0;
+}
+.joinM img{
+    float: right;
+    max-width: 15rem;   
+    margin: 0 1rem;
 }
 /* gallery CSS */
 
