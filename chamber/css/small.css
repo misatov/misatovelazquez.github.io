@@ -32,11 +32,12 @@ nav li a{
 .active{
     background-color:#ffffff; ;
 }
-nav li:hover{
+nav li a:hover{
     font-family: 'Open Sans', sans-serif; 
-    color:#007ea7;
+    color:#616383;
 
 }
+
 header,nav,footer{ 
     background-color: #020887;
     color: #ffffff;
@@ -124,7 +125,7 @@ main h2{
 }
 nav ul li.active a {
    text-decoration: underline;
-   color: rgba(128, 145, 194, 0.9);
+   color: #020887;;
 }
 .idahoIntro{
     max-width: 100% ;
