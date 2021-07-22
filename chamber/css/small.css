@@ -154,7 +154,7 @@ nav ul li.active a {
 .forecast{
     margin-top: 30px;
 }
-/* Forecast Grid */
+/* Forecast Grid
 .grid { 
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
@@ -195,14 +195,8 @@ nav ul li.active a {
 	font-size: 0.8rem;
 	text-align: center;
     font-family: 'Open Sans', sans-serif; 
-}
-/* Gallery CSS */
-figcaption{
-    font-family: 'Open Sans', sans-serif; 
-}
-figure img:hover{
-    box-shadow: 0 0 50px #333;
-}
+} */
+
 /* Event CSS */
 .eventInfo{
     margin: 1rem 0;
@@ -253,7 +247,7 @@ font-family: 'Open Sans', sans-serif;
     
 }
 
-/* Storm Center CSS */
+/* Join CSS */
 legend,label,div{
     font-family: 'Open Sans', sans-serif; 
 }
@@ -321,4 +315,10 @@ button{
     justify-self: center; */
     /* margin: auto; */
     text-align: center;
+}
+.contactInfo{
+    text-align: center;
+    padding: 1rem 2rem;                                                                                                                                                                                                 
+    margin:  1rem;
+  
 }
