@@ -25,6 +25,7 @@ fetch(requestURL)
         name.textContent = members[i].name ;
         city.textContent = members[i].city;
         website.textContent = members[i].website;
+        website.setAttribute('href', website);
     //     rainFall.textContent = "Average Rain Fall: " + members[i].averageRainfall;
     //     img.setAttribute('src', `images/${members[i].photo}`);
     //     img.setAttribute('alt', `${members[i].name}`);

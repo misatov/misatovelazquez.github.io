@@ -154,7 +154,7 @@ nav ul li.active a {
 .forecast{
     margin-top: 30px;
 }
-/* Forecast Grid
+/* Forecast Grid */
 .grid { 
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
@@ -195,7 +195,7 @@ nav ul li.active a {
 	font-size: 0.8rem;
 	text-align: center;
     font-family: 'Open Sans', sans-serif; 
-} */
+}
 
 /* Event CSS */
 .eventInfo{
@@ -320,5 +320,9 @@ button{
     text-align: center;
     padding: 1rem 2rem;                                                                                                                                                                                                 
     margin:  1rem;
-  
+}
+/* Directory CSS */
+.cards{
+    text-align: center;
+    padding-bottom: 5rem;
 }
