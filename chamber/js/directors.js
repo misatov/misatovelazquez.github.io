@@ -1,4 +1,4 @@
-const requestURL = 'json/directory.json';
+const requestURL = 'json/directors.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -9,7 +9,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  
 
-    const members = jsonObject['directory'];
+    const members = jsonObject['directors'];
   
 
     for(let i=0; i<members.length; i++){
@@ -24,24 +24,19 @@ fetch(requestURL)
         h3.textContent = members[i].name;
         name.textContent = members[i].name ;
         city.textContent = members[i].city;
-        website.textContent = members[i].website;
-    //     rainFall.textContent = "Average Rain Fall: " + members[i].averageRainfall;
-    //     img.setAttribute('src', `images/${members[i].photo}`);
-    //     img.setAttribute('alt', `${members[i].name}`);
-    //     secDiv.setAttribute('class', 'secDiv');
-
+        // website.textContent = members[i].website;
+ 
 
         card.append(secDiv);
         secDiv.append(h3);
         secDiv.append(name);
         secDiv.append(city);
-        secDiv.append(website);
-    //     secDiv.append(rainFall);
-    //     card.append(img);
+        // secDiv.append(website);
+  
         
 
 
-        document.querySelector('div.cards').append(card);
+        document.querySelector('div.directors').append(card);
     }
 
     });

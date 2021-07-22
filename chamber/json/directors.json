@@ -1,0 +1,40 @@
+{
+    "directors": [
+        {
+            "name": "Amy Blackhurst",
+            "address": "45-3 Funahashi, Funahashi-mura, Nakaniikawa-gun, Toyama-ken ",
+            "city": "Tateyama, Toyama",
+            "website": "https://h-tateyama.alpen-route.co.jp/en/"
+        },
+        {
+            "name": "Fred Womack",
+            "address": "1338 Hara, Toyama 930-1454 Toyama Prefecture",
+            "city": "Tateyama, Toyama",
+            "website": "https://h-tateyama.alpen-route.co.jp/en/"
+        },
+        {
+            "name": "Eli Hernandez",
+            "address": "45 Hara, Toyama-shi, Toyama Prefecture, 930-1454",
+            "city": "Tateyama, Toyama",
+            "website": "https://www.tatekoku.com/english.html"
+        },
+        {
+            "name": "T.J. Whiting",
+            "address": "30 Shimonoban, Toyama-shi, Toyama 930-1305",
+            "city": "Tateyama, Toyama",
+            "website": "https://www.tateyama.jp/ma/en/"
+        },
+        {
+            "name": "Mark Yanez",
+            "address": "30 Shimonoban, Toyama-shi, Toyama 930-1305",
+            "city": "Tateyama, Toyama",
+            "website": "https://www.tateyama.jp/en/"
+        },
+        {
+            "name": "Ashley Hickman",
+            "address": "45-3 Funahashi, Funahashi-mura, Nakaniikawa-gun, Toyama-ken",
+            "city": "Tateyama, Toyama",
+            "website": "https://h-tateyama.alpen-route.co.jp/restaurant/tateyama.php"
+        }
+    ]
+}
